@@ -35,6 +35,7 @@ skills:
  - KNIME
  - Machine Learning
  - NiFi
+ - Python
  - Splunk
  - SQL
  - Technical Architecture
@@ -48,7 +49,7 @@ roles:
    start: 2019
    end: Ongoing
    employer: Dimensional Fund Advisors
-#   description:
+   description: Research and Development in technology.
  - title: Lead BI Analyst
    start: 2016
    end: 2019
@@ -73,11 +74,11 @@ roles:
 #Education is required
 education:
  - level: Certificate
-#   date: 
+   date: 2019
    subject: Data Science for Business
    school: Business Science University
  - level: Associate of Science (A.S.)
-#   date: 
+   date: 1997
    subject: Computer Programming
    school: Columbus State Community College
 
@@ -124,13 +125,13 @@ education:
 #   profileurl: https://stackoverflow.com/users/258813/rhinds
 #   flairimageurl: https://stackoverflow.com/users/flair/258813.png
 
-intro:
+intro: |
 Currently working as an engineer in technology for research and development topics using a range of cutting edge technology and techniques including C#, Python, Jupyter Lab/R Studio, Machine Learning/AI, Graph Databases. I have previously worked with a range of languages and platforms including Splunk, Databricks, NiFi, AWS, SQL.
 I was lead data analyst on the data science team for the AAA game Quake Champions, and prior to that I led the Splunk rollout as the Splunk architect for two AAA rated games Elder Scrolls Online and Fallout 76.
 I also co-founded Data Ice Cream LLC (parked).
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo:
+additionalinfo: |
    <strong>Graph Databases</strong>: My current role uses Cypher and SQL as primary languages as well as C# and Python in Jupyter Lab and also Machine Learning H2O in R Studio and have been analyzing forensic data in ServiceNow, DependencyTrack and Elastic for the last three years. I am familiar with a range of Graph databases, such as <a target="_blank" href="https://www.graphistry.com/"> Graphistry for exploratory data analysis (EDA)</a> and <a target="_blank" href="https://age.apache.org/">A Graph Extension for PostgreSQL</a>, as well as familar with a range of <a target="_blank" href="https://en.wikipedia.org/wiki/Cypher_(query_language)" >graph database languages</a>.<br/><br/>
    <strong>R Studio</strong>: I am experienced in a variety of Machine Learning frameworks when I went to work on id Software's <a target='_blank' href="https://www.elderscrollsonline.com">AAA game Quake Champions</a> in R Studio and Databricks. I have worked with H2O suite of Machine Learning model tools the most.<br/><br/>
    <strong>Splunk</strong> I have architected Splunk deployments since Splunk 3.x in 2010, and deployed Splunk in production since version 4.x from 2011 and onward. I am the architect who built Splunk for <a target='_blank' href="https://www.elderscrollsonline.com">AAA game Elder Scrolls Online</a> and <a target="_blank" href="https://fallout.bethesda.net/">AAA game Fallout</a>). <br/><br/>
