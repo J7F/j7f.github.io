@@ -1,7 +1,7 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: John Folkers
+# twitter_username: rob_hinds
+name: John Folkers
 
 # Build settings
 markdown: kramdown
@@ -24,54 +24,63 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - Scala
- - Akka-http
- - Microservices
- - Slick
- - Product management
- - API design
- - Groovy
- - Spring MVC/Boot/Social
- - Gradle
- - Java
- - JPA
+ - AWS
+ - Business Intelligence
+ - C#
+ - Databricks
+ - Data Mining
+ - Data Modeling
+ - Graph Databases/Cypher
+ - Jupyter Lab
+ - KNIME
+ - Machine Learning
+ - NiFi
+ - Splunk
  - SQL
- - REST
  - Technical Architecture
  - Machine learning
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
+# blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
 #Work experience is required
 roles:
- - title: CTO
-   start: 2017
+ - title: Senior Engineer
+   start: 2019
    end: Ongoing
    employer: Basement Crowd
-   description: Legaltech startup producing a range of innovative legal products. Products include <a href="https://www.juriosity.com" taget="_blank">Juriosity</a>, <a href="https://www.fromcounsel.com" taget="_blank">FromCounsel</a>, <a href="https://www.sparqa.com" taget="_blank">Sparqa</a>.
- - title: Senior Engineer
+#   description: Legaltech startup producing a range of innovative legal products. Products include <a href="https://www.juriosity.com" taget="_blank">Juriosity</a>, <a href="https://www.fromcounsel.com" taget="_blank">FromCounsel</a>, <a href="https://www.sparqa.com" taget="_blank">Sparqa</a>.
+ - title: Lead BI Analyst
    start: 2016
-   end: 2017
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
+   end: 2019
+   employer: Zenimax Media
+   description: Zenimax HQ role working with id Software AAA Quake Champions data analysis using a number of machine learning techniques.
+ - title: Splunk Architect
+   start: 2013
    end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> Working as a senior engineer, I worked closely with the CTO and across the full-stack, I was involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
+   employer: Zenimax Online Studios
+   description: I worked closely with the game studio in all aspects of the technology including the centralized logging and back-end services.
+ - title: Customer Engineer
+   start: 2012
+   end: 2013
+   employer: Infusionsoft
+   description: Working on a range of functional and technical roles, primarily working onboarding client data.
+ - title: Professional Services
+   start: 2011
    end: 2012
-   employer: Accenture
-   description: Working on a range of functional and technical roles, primarily working on client sites in Financial Services in London and Europe.
+   employer: Splunk
+   description: Fantastic experience deploying Splunk and educating new customers.
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+ - level: Certificate
+#   date: 
+   subject: Data Science for Business
+   school: Business Science University
+ - level: Associate of Science (A.Sc.)
+#   date: 
+   subject: Computer Science
+   school: Columbus State Community College
 
 #This section is optional (as is the image link below)
 coursera:
@@ -88,33 +97,33 @@ coursera:
 
 #This section is optional - embeds slideshows from speakerdeck
 # to get the speakerdeck ID copy the embed code and look for the data-it attribute
-speakerdeck:
-   profileurl: https://speakerdeck.com/robhinds
-   talks:
-    - title: Product Management for Engineers
-      speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
-      conference: API Conference, Berlin 2018
-    - title: Agile Machine Learning - from Theory to Production
-      speakerdeckId: ec84f2f56e9743afb0675b1eeeb6b6ce
-      conference: W-JAX Conference, Munich 2017 (London 2017)
+# speakerdeck:
+#   profileurl: https://speakerdeck.com/robhinds
+#   talks:
+#    - title: Product Management for Engineers
+#      speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
+#      conference: API Conference, Berlin 2018
+#    - title: Agile Machine Learning - from Theory to Production
+#      speakerdeckId: ec84f2f56e9743afb0675b1eeeb6b6ce
+#      conference: W-JAX Conference, Munich 2017 (London 2017)
 
 #List of interesting Github repo/projects to include - optional
-github:
- - robhinds/robhinds.github.io
- - robhinds/ScaLambda
- - robhinds/opinionated-akka-http
- - robhinds/food2vec
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/genotype
- - robhinds/footweets
- - robhinds/ElasticSearchGradle
+# github:
+# - robhinds/robhinds.github.io
+# - robhinds/ScaLambda
+# - robhinds/opinionated-akka-http
+# - robhinds/food2vec
+# - robhinds/microservices
+# - robhinds/spring-social-geeklist
+# - robhinds/spring-social-stackoverflow
+# - robhinds/genotype
+# - robhinds/footweets
+# - robhinds/ElasticSearchGradle
 
 #Stackoverflow flair is optional
-stackoverflow:
-   profileurl: https://stackoverflow.com/users/258813/rhinds
-   flairimageurl: https://stackoverflow.com/users/flair/258813.png
+# stackoverflow:
+#   profileurl: https://stackoverflow.com/users/258813/rhinds
+#   flairimageurl: https://stackoverflow.com/users/flair/258813.png
 
 intro: |
   I am an engineer with 15 years experience working in technology. I have primarily worked on the JVM, but have worked across a broad range of technologies thereon: Java, Groovy, Android, Coldfusion and most recently Scala. As well as spending a reasonable amount of time building applications for the web, which has given me an exposure to a range of javascript technologies over the years, through jQuery, extjs, knockout, backbone and most recently to React. <br/><br/>
@@ -123,12 +132,11 @@ intro: |
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>Scala</strong>: My current role uses Scala as the primary language and have been building applications in Scala for the last two years. I am familiar with a range of Scala libraries, such as <a target="_blank" href="https://automateddeveloper.blogspot.com/2017/12/an-opinionated-guide-to-building-apis.html"> Akka-Http for building microservices</a> and <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/09/generic-programming-with-scala.html"> Shapeless for generic programming</a>, as well as familiar with a range of <a target="_blank" href="https://basementcrowd.com/2018/11/28/scala-the-aux-pattern-path-dependent-types/" >functional programming techniques available</a>.<br/><br/>
-   <strong>Java</strong>: I am experienced in a variety of Java API’s and frameworks. I have worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others. <br/><br/>
-   <strong>Groovy</strong> I have used Groovy as a language in production for ~4 years and I am familiar with many of the languages features (such as writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>) and quirks (such as <a target="_blank" href="https://dzone.com/articles/groovy-retrospective-an-addendum-memory-usage-perm">memory leak issues</a>). <br/><br/>
-   <strong>Cloud platforms</strong>: I have primarily used AWS for running production apps on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3, Cogito, <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/05/serverless-with-aws-lambda-scala.html">Lambda</a> and its more recent <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/10/machine-learning-with-aws-scala.html">Machine Learning capabilities</a>.<br/><br/>
-   <strong>Web Development</strong>: Through building web applications, I have also worked with various client side technology, having used jQuery, Bootstrap, LESS, SASS, Backbone/Underscore/Require. More recently I have written React applications (primarily using the Create React App framework, and extending them)<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar, Jenkins, TeamCity, etc. I have experience with an array of testing tools and technologies.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/AWS. <br/><br/>
-   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="https://projects.spring.io/spring-social/">https://projects.spring.io/spring-social/</a>. <br/><br/>
-   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="https://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
+   <strong>Graph Databases</strong>: My current role uses Cypher and SQL as primary languages as well as C# and Python in Jupyter Lab and also Machine Learning H2O in R Studio and have been analyzing forensic data in ServiceNow, DependencyTrack and Elastic for the last three years. I am familiar with a range of Graph databases, such as <a target="_blank" href="https://www.graphistry.com/"> Graphistry for exploratory data analysis (EDA)</a> and <a target="_blank" href="https://age.apache.org/">A Graph Extension for PostgreSQL</a>, as well as familar with a range of <a target="_blank" href="https://en.wikipedia.org/wiki/Cypher_(query_language)" >graph database languages</a>.<br/><br/>
+   <strong>R Studio</strong>: I am experienced in a variety of Machine Learning frameworks when I went to work on id Software's <a target='_blank' href="https://www.elderscrollsonline.com">AAA game Quake Champions</a> in R Studio and Databricks. I have worked with H2O suite of Machine Learning model tools the most.<br/><br/>
+   <strong>Splunk</strong> I have architected Splunk deployments since Splunk 3.x in 2010, and deployed Splunk in production since version 4.x from 2011 and onward. I am the architect who built Splunk for <a target='_blank' href="https://www.elderscrollsonline.com">AAA game Elder Scrolls Online</a> and <a target="_blank" href="https://fallout.bethesda.net/">AAA game Fallout</a>). <br/><br/>
+   <strong>Cloud platforms</strong>: I have used both AWS and Azure for running production data analysis on the cloud. I have experience with Azure's blobs and also using a range of AWS offerings, including EC2, S3, AWS CLI, AWS Management Console as administrator for production, staging, development.<br/><br/>
+   <strong>Web Development</strong>: Mostly this is turning Jupyter notebooks into Dashboards: either through Voila + Graphistry, or it could be with Jupyter Dash. I have taken online courses, and I have also worked with various web technologies. Most recently I have written React applications (primarily using the Create React App framework, and extending them).<br/><br/>
+   <strong>Networks and Operating Systems</strong>: I have a good knowledge of networks and operating systems from my previous professional careers having worked with firewalls routers and switches, bluecoats and reverse proxies, Windows, Linux and MacOSX, and have worked in several disaster recovery sites having set up the network operationally.<br/><br/>
+   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including FFMPEG with its commandline style of video and audio editing and compression, cutting and swapping out audio codecs, video codecs and reducing the size on disk. I can also do size reduction for PDFs using free open source tools.<br/><br/>
+   
