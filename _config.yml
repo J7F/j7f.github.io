@@ -8,19 +8,19 @@ markdown: kramdown
 
 #User specific content
 #Links that will appear in the navbar
-primarylinks:
- - title: Blog
-   url: https://automateddeveloper.blogspot.com/
- - title: GitHub
-   url: https://github.com/robhinds
- - title: StackOverflow
-   url: https://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
- - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
- - title: Food
-   url: https://www.robbishfood.com/
+#primarylinks:
+# - title: Blog
+#   url: https://automateddeveloper.blogspot.com/
+# - title: GitHub
+#   url: https://github.com/robhinds
+# - title: StackOverflow
+#   url: https://stackoverflow.com/users/258813/rhinds
+# - title: DZone
+#   url: https://dzone.com/users/899489/rhinds.html
+# - title: LinkedIn
+#   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+# - title: Food
+#   url: https://www.robbishfood.com/
 
 #Any buzzword skills you want to include
 skills:
@@ -38,7 +38,6 @@ skills:
  - Splunk
  - SQL
  - Technical Architecture
- - Machine learning
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 # blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
@@ -48,8 +47,8 @@ roles:
  - title: Senior Engineer
    start: 2019
    end: Ongoing
-   employer: Basement Crowd
-#   description: Legaltech startup producing a range of innovative legal products. Products include <a href="https://www.juriosity.com" taget="_blank">Juriosity</a>, <a href="https://www.fromcounsel.com" taget="_blank">FromCounsel</a>, <a href="https://www.sparqa.com" taget="_blank">Sparqa</a>.
+   employer: Dimensional Fund Advisors
+#   description:
  - title: Lead BI Analyst
    start: 2016
    end: 2019
@@ -77,23 +76,23 @@ education:
 #   date: 
    subject: Data Science for Business
    school: Business Science University
- - level: Associate of Science (A.Sc.)
+ - level: Associate of Science (A.S.)
 #   date: 
-   subject: Computer Science
+   subject: Computer Programming
    school: Columbus State Community College
 
 #This section is optional (as is the image link below)
-coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
-   courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
-    - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/specializations/algorithms
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
+#coursera:
+#   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+#   courses:
+#    - title: Functional Programming Principles in Scala
+#      link: https://www.coursera.org/course/progfun
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+#      date: September 16, 2013
+#    - title: Algorithms Design and Analysis, Part 1
+#      link: https://www.coursera.org/specializations/algorithms
+#      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
+#      date: April 28, 2014
 
 #This section is optional - embeds slideshows from speakerdeck
 # to get the speakerdeck ID copy the embed code and look for the data-it attribute
@@ -125,13 +124,13 @@ coursera:
 #   profileurl: https://stackoverflow.com/users/258813/rhinds
 #   flairimageurl: https://stackoverflow.com/users/flair/258813.png
 
-intro: |
-  I am an engineer with 15 years experience working in technology. I have primarily worked on the JVM, but have worked across a broad range of technologies thereon: Java, Groovy, Android, Coldfusion and most recently Scala. As well as spending a reasonable amount of time building applications for the web, which has given me an exposure to a range of javascript technologies over the years, through jQuery, extjs, knockout, backbone and most recently to React. <br/><br/>
-  I enjoy building interesting products, with a good Product Management focus and a good emphasis on good engineering principles and clean code (having worked across differing languages on the JVM, I recognise that good code is contextual).<br/><br/>
-  I have worked in large scale consultancy roles across Europe as well as a mix of startup experience (including one that was acquired) and I am currently the Chief Technology Officer at a legal-tech startup called <a href="https://www.basementcrowd.com" target="_blank">Basement Crowd</a> where we are building innovative products to serve the legal industry.
+intro:
+Currently working as an engineer in technology for research and development topics using a range of cutting edge technology and techniques including C#, Python, Jupyter Lab/R Studio, Machine Learning/AI, Graph Databases. I have previously worked with a range of languages and platforms including Splunk, Databricks, NiFi, AWS, SQL.
+I was lead data analyst on the data science team for the AAA game Quake Champions, and prior to that I led the Splunk rollout as the Splunk architect for two AAA rated games Elder Scrolls Online and Fallout 76.
+I also co-founded Data Ice Cream LLC (parked).
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: |
+additionalinfo:
    <strong>Graph Databases</strong>: My current role uses Cypher and SQL as primary languages as well as C# and Python in Jupyter Lab and also Machine Learning H2O in R Studio and have been analyzing forensic data in ServiceNow, DependencyTrack and Elastic for the last three years. I am familiar with a range of Graph databases, such as <a target="_blank" href="https://www.graphistry.com/"> Graphistry for exploratory data analysis (EDA)</a> and <a target="_blank" href="https://age.apache.org/">A Graph Extension for PostgreSQL</a>, as well as familar with a range of <a target="_blank" href="https://en.wikipedia.org/wiki/Cypher_(query_language)" >graph database languages</a>.<br/><br/>
    <strong>R Studio</strong>: I am experienced in a variety of Machine Learning frameworks when I went to work on id Software's <a target='_blank' href="https://www.elderscrollsonline.com">AAA game Quake Champions</a> in R Studio and Databricks. I have worked with H2O suite of Machine Learning model tools the most.<br/><br/>
    <strong>Splunk</strong> I have architected Splunk deployments since Splunk 3.x in 2010, and deployed Splunk in production since version 4.x from 2011 and onward. I am the architect who built Splunk for <a target='_blank' href="https://www.elderscrollsonline.com">AAA game Elder Scrolls Online</a> and <a target="_blank" href="https://fallout.bethesda.net/">AAA game Fallout</a>). <br/><br/>
